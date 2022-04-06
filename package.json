@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mamat1411/nodeAccTest/issues"
   },
-  "homepage": "https://github.com/Mamat1411/nodeAccTest#readme"
+  "homepage": "https://github.com/Mamat1411/nodeAccTest#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }

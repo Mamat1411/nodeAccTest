@@ -1,0 +1,20 @@
+{
+  "name": "nodeacctest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mamat1411/nodeAccTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mamat1411/nodeAccTest/issues"
+  },
+  "homepage": "https://github.com/Mamat1411/nodeAccTest#readme"
+}

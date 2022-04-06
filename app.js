@@ -3,12 +3,19 @@ const app = express();
 const port = 3000;
 
 app.post('/', (req, res) => {
-    res.send("Hello World");
+    res.json({
+        OUT_STAT : "T",
+        OUT_MESS : "SUCCESS",
+        OUT_DATA : []
+    });
 });
 
 app.use('/', (req, res) => {
     res.status(404);
-    res.send(`404`);
+    res.json({
+        OUT_STAT : "F",
+        OUT_MESS : "FAILED"
+    });
 });
 
 app.listen(port, () =>{
